@@ -1,0 +1,36 @@
+.glide{
+    margin-top: 2%;
+    padding: 12%;
+}
+.glide__slide img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.glide__slide{
+    filter: blur(6px);
+    transition: 0.5s ease-in-out;
+    transform: scale(0.7);
+    margin: auto;
+    margin-left: 0px;
+}
+
+.glide__slide--active{
+    filter: none;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.glide__slides{
+    overflow: visible;
+}
+
+.glide__arrow{
+    color: rgba(255, 255, 255, 0.589);
+    background: rgba(0, 0, 0, 0.108);
+    border: none;
+    font-size: 30px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
